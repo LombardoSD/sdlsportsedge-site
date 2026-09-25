@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>SDL Sports EDGE — NFL Model Picks &amp; Track Record</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="A machine-learning model that predicts every NFL game, straight up, against the spread, and totals — with a public, graded track record." />
+<link rel="stylesheet" href="./assets/styles.css?v=91" />
+</head>
+<body>
+
+<div class="light-field"><div class="glow a"></div><div class="glow b"></div></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="wordmark">
+      <span class="bar"></span>
+      <div class="wordmark-text">
+        <div class="wordmark-main">
+          <span class="brand-pre">SDL SPORTS</span>
+          <span class="brand-main">EDGE</span>
+        </div>
+        <div class="wordmark-tagline">Empirical Data-Driven Game Engine</div>
+        <div class="wordmark-byline">by Stephen Lombardo</div>
+      </div>
+    </div>
+    <div class="edition-tag"><svg class="edition-svg" viewBox="0 0 305 56" role="img" aria-label="NFL Edition"><defs><filter id="edBlur" x="-5%" y="-10%" width="110%" height="125%"><feGaussianBlur stdDeviation="0.9"/></filter></defs><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#000" opacity="0.65" transform="translate(1.8 2.4)" filter="url(#edBlur)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#a9c6ff" opacity="0.85" transform="translate(-1 -1.2)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#2f6fed">NFL Edition</text></svg></div>
+    <nav class="site-nav" id="site-nav">
+      <a href="./index.html" class="active">Overview</a>
+      <a href="./board.html">Matchup Board</a>
+      <a href="./parlays.html">Parlays</a>
+      <a href="./teams.html">Teams</a>
+      <a href="./training.html">Training</a>
+      <a href="./metrics.html">Metrics</a>
+      <a class="nav-donate" href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.3 2.7 4.6 6.2 4.6c2.1 0 3.6 1.1 4.6 2.6.3.4.9.4 1.2 0 1-1.5 2.5-2.6 4.6-2.6 3.5 0 5.3 3.7 3.8 7.2C19.5 16.4 12 21 12 21z"/></svg> Donate</a>
+    </nav>
+    <a class="donate-btn" href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer" title="Support the site — donations help cover hosting and data costs"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.3 2.7 4.6 6.2 4.6c2.1 0 3.6 1.1 4.6 2.6.3.4.9.4 1.2 0 1-1.5 2.5-2.6 4.6-2.6 3.5 0 5.3 3.7 3.8 7.2C19.5 16.4 12 21 12 21z"/></svg>Donate</a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="edition-band" aria-hidden="true"><span class="edition-band-bar"></span><svg class="edition-svg" viewBox="0 0 305 56" role="img" aria-label="NFL Edition"><defs><filter id="edBlurBand" x="-5%" y="-10%" width="110%" height="125%"><feGaussianBlur stdDeviation="0.9"/></filter></defs><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#000" opacity="0.65" transform="translate(1.8 2.4)" filter="url(#edBlurBand)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#a9c6ff" opacity="0.85" transform="translate(-1 -1.2)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#2f6fed">NFL Edition</text></svg></div>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-kicker">Model-driven · Fully graded · No cherry-picking</div>
+      <h1>Every pick, every week,<br /><span class="accent">graded in public.</span></h1>
+      <p class="lede">
+        Sports EDGE (EMPIRICAL DATA-DRIVEN GAME ENGINE) predicts every NFL game straight up, against the spread, and on the total —
+        from a model built on game context, team strength, and situational factors —
+        then publishes the result, win or lose.
+      </p>
+      <div class="reflect">
+        <div class="stat-row glass" id="stat-row">
+          <div class="stat blue">
+            <div class="num"><span id="stat-ml-pct">0</span><span class="unit">%</span></div>
+            <div class="label">Moneyline Accuracy</div>
+            <div class="sub" id="stat-ml-sub">—</div>
+          </div>
+          <div class="stat blue">
+            <div class="num"><span id="stat-ats-pct">0</span><span class="unit">%</span></div>
+            <div class="label">Against The Spread</div>
+            <div class="sub" id="stat-ats-sub">—</div>
+          </div>
+          <div class="stat blue">
+            <div class="num"><span id="stat-tot-pct">0</span><span class="unit">%</span></div>
+            <div class="label">Totals Accuracy</div>
+            <div class="sub" id="stat-tot-sub">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="stat-caption" id="stat-caption"></div>
+      <div class="stat-caption stat-caption-retro" id="stat-caption-retro"></div>
+      <aside class="research-notice" role="note">
+        <strong>Research notice</strong>
+        This week's predictions come from an experimental research model, tracked live for transparency.
+        <span class="research-notice-more">2025 results are a retrospective reconstruction, not a live record: the model was trained on the 2025 games and shown each game's closing lines, so they overstate what it can do in real time. 2026 picks are made before kickoff, from a model still running on a smaller set of inputs than prior seasons had — recent quarterback and offensive-line form, pass-rush pressure, and explosive-play rates are being rebuilt for the current season game by game. Early 2026 confidence numbers should be read with that in mind. Moneyline probabilities also lean mainly on the betting market's own price, since testing showed our model's own estimates were overconfident on their own and didn't improve on the market by themselves.</span>
+      </aside>
+    </div>
+  </section>
+
+  <section class="block" id="board">
+    <div class="wrap">
+      <div class="board-tag" id="board-tag">This Week</div>
+      <div class="section-head">
+        <h2>Matchup Board</h2>
+        <a class="view-all" href="./board.html">View full board →</a>
+      </div>
+      <div id="board-grid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="performance">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Season Performance</h2>
+        <div class="section-note" id="performance-note">Straight-up accuracy by week. Every graded game, no exclusions.</div>
+      </div>
+      <div class="chart-card glass">
+        <div class="chart-legend">
+          <span><span class="swatch" style="background:var(--line)"></span>Below average</span>
+          <span><span class="swatch" style="background:var(--accent)"></span>At or above average</span>
+          <span><span class="swatch" style="background:var(--accent-2)"></span>Toughest week</span>
+        </div>
+        <svg id="chart-svg" viewBox="0 0 1000 220" preserveAspectRatio="none"></svg>
+        <div class="chart-week-labels" id="chart-labels"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="teams-preview">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Teams</h2>
+        <div class="section-note">2025 (retrospective) · top teams by moneyline accuracy</div>
+        <a class="view-all" href="./teams.html">All 32 teams →</a>
+      </div>
+      <div class="teams-grid" id="teams-grid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How It Works</h2>
+        <div class="section-note">Plain-English version. The model runs on structured data, not intuition.</div>
+      </div>
+      <div class="how-grid">
+        <div class="how-card glass">
+          <div class="idx">01</div>
+          <h3>Game Context</h3>
+          <p>Travel distance, rest days, time zone shifts, surface, roof, and weather — the physical conditions each team is walking into.</p>
+        </div>
+        <div class="how-card glass">
+          <div class="idx">02</div>
+          <h3>Team Strength</h3>
+          <p>Offensive and defensive efficiency, quarterback play, pressure rates, and special teams — updated weekly from real game data.</p>
+        </div>
+        <div class="how-card glass">
+          <div class="idx">03</div>
+          <h3>Situational Edge</h3>
+          <p>Trap games, short weeks, post-bye spots, and other schedule-driven factors that quietly move outcomes.</p>
+        </div>
+      </div>
+      <p class="disclaimer">
+        For entertainment and informational purposes only. Past accuracy does not guarantee future results —
+        this is a statistical model, not betting advice.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+    <span class="footer-brand"><strong>SDL Sports EDGE</strong><small>EMPIRICAL DATA-DRIVEN GAME ENGINE</small></span>
+    <span class="footer-support"><a href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer">Support the site</a><small>Voluntary · not tax-deductible</small></span>
+    <span class="footer-edition">NFL Edition</span>
+  </div>
+</footer>
+
+<script src="./assets/nav.js?v=85"></script>
+<script src="./assets/data.js?v=90"></script>
+<script src="./assets/board-table.js?v=91"></script>
+<script src="./assets/app.js?v=85"></script>
+</body>
+</html>

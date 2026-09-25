@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title id="page-title">Team — SDL Sports EDGE NFL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./assets/styles.css?v=91" />
+</head>
+<body>
+
+<div class="light-field"><div class="glow a"></div><div class="glow b"></div></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="wordmark">
+      <span class="bar"></span>
+      <div class="wordmark-text">
+        <div class="wordmark-main">
+          <span class="brand-pre">SDL SPORTS</span>
+          <span class="brand-main">EDGE</span>
+        </div>
+        <div class="wordmark-tagline">Empirical Data-Driven Game Engine</div>
+        <div class="wordmark-byline">by Stephen Lombardo</div>
+      </div>
+    </div>
+    <div class="edition-tag"><svg class="edition-svg" viewBox="0 0 305 56" role="img" aria-label="NFL Edition"><defs><filter id="edBlur" x="-5%" y="-10%" width="110%" height="125%"><feGaussianBlur stdDeviation="0.9"/></filter></defs><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#000" opacity="0.65" transform="translate(1.8 2.4)" filter="url(#edBlur)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#a9c6ff" opacity="0.85" transform="translate(-1 -1.2)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#2f6fed">NFL Edition</text></svg></div>
+    <nav class="site-nav" id="site-nav">
+      <a href="./index.html">Overview</a>
+      <a href="./board.html">Matchup Board</a>
+      <a href="./parlays.html">Parlays</a>
+      <a href="./teams.html" class="active">Teams</a>
+      <a href="./training.html">Training</a>
+      <a href="./metrics.html">Metrics</a>
+      <a class="nav-donate" href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.3 2.7 4.6 6.2 4.6c2.1 0 3.6 1.1 4.6 2.6.3.4.9.4 1.2 0 1-1.5 2.5-2.6 4.6-2.6 3.5 0 5.3 3.7 3.8 7.2C19.5 16.4 12 21 12 21z"/></svg> Donate</a>
+    </nav>
+    <a class="donate-btn" href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer" title="Support the site — donations help cover hosting and data costs"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.3 2.7 4.6 6.2 4.6c2.1 0 3.6 1.1 4.6 2.6.3.4.9.4 1.2 0 1-1.5 2.5-2.6 4.6-2.6 3.5 0 5.3 3.7 3.8 7.2C19.5 16.4 12 21 12 21z"/></svg>Donate</a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="edition-band" aria-hidden="true"><span class="edition-band-bar"></span><svg class="edition-svg" viewBox="0 0 305 56" role="img" aria-label="NFL Edition"><defs><filter id="edBlurBand" x="-5%" y="-10%" width="110%" height="125%"><feGaussianBlur stdDeviation="0.9"/></filter></defs><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#000" opacity="0.65" transform="translate(1.8 2.4)" filter="url(#edBlurBand)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#a9c6ff" opacity="0.85" transform="translate(-1 -1.2)">NFL Edition</text><text x="0" y="56" textLength="304" lengthAdjust="spacingAndGlyphs" fill="#2f6fed">NFL Edition</text></svg></div>
+  <div class="wrap">
+    <div class="team-hero" id="team-hero"></div>
+
+    <div class="reflect">
+      <div class="team-stat-row glass" id="team-stat-row"></div>
+    </div>
+    <aside class="research-notice" role="note">
+      <strong>Research notice</strong>
+      This week's predictions come from an experimental research model, tracked live for transparency.
+      <span class="research-notice-more">2025 results are a retrospective reconstruction, not a live record: the model was trained on the 2025 games and shown each game's closing lines, so they overstate what it can do in real time. 2026 picks are made before kickoff, from a model still running on a smaller set of inputs than prior seasons had — recent quarterback and offensive-line form, pass-rush pressure, and explosive-play rates are being rebuilt for the current season game by game. Early 2026 confidence numbers should be read with that in mind. Moneyline probabilities also lean mainly on the betting market's own price, since testing showed our model's own estimates were overconfident on their own and didn't improve on the market by themselves.</span>
+    </aside>
+  </div>
+
+  <section class="block" style="border-bottom: none;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Game Log</h2>
+        <div class="section-note">Every game this team played, and whether the model called it.</div>
+      </div>
+      <div class="glass" style="padding: 8px 20px; overflow-x: auto;">
+        <table class="game-log-table" id="game-log">
+          <thead>
+            <tr>
+              <th>Wk</th>
+              <th>Opponent</th>
+              <th>Result</th>
+              <th>ML Pick</th>
+              <th>ATS</th>
+              <th>TOT</th>
+            </tr>
+          </thead>
+          <tbody id="game-log-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+    <span class="footer-brand"><strong>SDL Sports EDGE</strong><small>EMPIRICAL DATA-DRIVEN GAME ENGINE</small></span>
+    <span class="footer-support"><a href="https://ko-fi.com/sdlsportsedge" target="_blank" rel="noopener noreferrer">Support the site</a><small>Voluntary · not tax-deductible</small></span>
+    <span class="footer-edition">NFL Edition</span>
+  </div>
+</footer>
+
+<script src="./assets/nav.js?v=85"></script>
+<script src="./assets/data.js?v=90"></script>
+<script src="./assets/team.js?v=85"></script>
+</body>
+</html>

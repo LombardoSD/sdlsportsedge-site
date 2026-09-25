@@ -1,0 +1,3767 @@
+{
+  "season": {
+    "year": 2026,
+    "scheduledWeeks": 18,
+    "weeksGraded": "1\u20133",
+    "gamesGraded": 33,
+    "lineBook": "DraftKings",
+    "ml": {
+      "wins": 18,
+      "losses": 15,
+      "pct": 54.5,
+      "tie": 0
+    },
+    "mlLogloss": 0.7089,
+    "ats": {
+      "wins": 16,
+      "losses": 16,
+      "pct": 50.0,
+      "push": 1
+    },
+    "atsLogloss": 0.7068,
+    "tot": {
+      "wins": 11,
+      "losses": 22,
+      "pct": 33.3,
+      "push": 0
+    },
+    "totLogloss": 0.7378
+  },
+  "weekly": [
+    {
+      "week": 1,
+      "games": 16,
+      "ml": {
+        "wins": 11,
+        "losses": 5,
+        "pct": 68.8,
+        "tie": 0
+      },
+      "mlLogloss": 0.6696,
+      "ats": {
+        "wins": 9,
+        "losses": 6,
+        "pct": 60.0,
+        "push": 1
+      },
+      "atsLogloss": 0.6924,
+      "tot": {
+        "wins": 7,
+        "losses": 9,
+        "pct": 43.8,
+        "push": 0
+      },
+      "totLogloss": 0.7186
+    },
+    {
+      "week": 2,
+      "games": 16,
+      "ml": {
+        "wins": 7,
+        "losses": 9,
+        "pct": 43.8,
+        "tie": 0
+      },
+      "mlLogloss": 0.7188,
+      "ats": {
+        "wins": 6,
+        "losses": 10,
+        "pct": 37.5,
+        "push": 0
+      },
+      "atsLogloss": 0.7231,
+      "tot": {
+        "wins": 3,
+        "losses": 13,
+        "pct": 18.8,
+        "push": 0
+      },
+      "totLogloss": 0.7647
+    },
+    {
+      "week": 3,
+      "games": 1,
+      "ml": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "tie": 0
+      },
+      "mlLogloss": 1.1792,
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 100.0,
+        "push": 0
+      },
+      "atsLogloss": 0.6611,
+      "tot": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 100.0,
+        "push": 0
+      },
+      "totLogloss": 0.6158
+    }
+  ],
+  "calibration": {
+    "ml": [
+      {
+        "range": "50\u201360%",
+        "n": 22,
+        "predictedAvg": 56.1,
+        "actualPct": 59.1
+      },
+      {
+        "range": "60\u201370%",
+        "n": 10,
+        "predictedAvg": 63.1,
+        "actualPct": 50.0
+      },
+      {
+        "range": "80\u201390%",
+        "n": 1,
+        "predictedAvg": 80.0,
+        "actualPct": 0.0
+      }
+    ],
+    "ats": [
+      {
+        "range": "50\u201360%",
+        "n": 32,
+        "predictedAvg": 52.4,
+        "actualPct": 50.0
+      }
+    ],
+    "tot": [
+      {
+        "range": "50\u201360%",
+        "n": 31,
+        "predictedAvg": 55.1,
+        "actualPct": 35.5
+      },
+      {
+        "range": "60\u201370%",
+        "n": 2,
+        "predictedAvg": 61.9,
+        "actualPct": 0.0
+      }
+    ]
+  },
+  "games": [
+    {
+      "gameId": "2026W01-NESEA",
+      "week": 1,
+      "home": "SEA",
+      "away": "NE",
+      "kickoff": "Wed 9/9 \u00b7 8:20 PM ET",
+      "spreadDisplay": "SEA -3.0",
+      "total": 44.5,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": -3.0
+        },
+        "total": {
+          "open": 44.5,
+          "close": 44.5
+        },
+        "mlHome": {
+          "open": -170,
+          "close": -166
+        },
+        "mlAway": {
+          "open": 142,
+          "close": 140
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 13,
+      "awayScore": 10,
+      "ml": {
+        "pick": "SEA",
+        "prob": 0.575,
+        "price": -166,
+        "outcome": "win",
+        "logloss": 0.5542381754906931
+      },
+      "ats": {
+        "pick": "NE",
+        "prob": 0.5,
+        "outcome": "push",
+        "logloss": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.533,
+        "outcome": "win",
+        "logloss": 0.628323654153317
+      }
+    },
+    {
+      "gameId": "2026W01-SFLA",
+      "week": 1,
+      "home": "LA",
+      "away": "SF",
+      "kickoff": "Thu 9/10 \u00b7 8:35 PM ET",
+      "spreadDisplay": "LA -3.5",
+      "total": 47.5,
+      "lines": {
+        "spread": {
+          "open": -3.5,
+          "close": -3.5
+        },
+        "total": {
+          "open": 48.5,
+          "close": 47.5
+        },
+        "mlHome": {
+          "open": -192,
+          "close": -218
+        },
+        "mlAway": {
+          "open": 160,
+          "close": 180
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 7,
+      "awayScore": 27,
+      "ml": {
+        "pick": "LA",
+        "prob": 0.556,
+        "price": -218,
+        "outcome": "loss",
+        "logloss": 0.8128802958749969
+      },
+      "ats": {
+        "pick": "SF",
+        "prob": 0.5,
+        "outcome": "win",
+        "logloss": 0.6930128928100283
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.553,
+        "outcome": "win",
+        "logloss": 0.5932302648082931
+      }
+    },
+    {
+      "gameId": "2026W01-ATLPIT",
+      "week": 1,
+      "home": "PIT",
+      "away": "ATL",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "PIT -6.5",
+      "total": 40.5,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": -6.5
+        },
+        "total": {
+          "open": 42.5,
+          "close": 40.5
+        },
+        "mlHome": {
+          "open": -175,
+          "close": -298
+        },
+        "mlAway": {
+          "open": 145,
+          "close": 240
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 20,
+      "awayScore": 13,
+      "ml": {
+        "pick": "PIT",
+        "prob": 0.575,
+        "price": -298,
+        "outcome": "win",
+        "logloss": 0.5542381754906931
+      },
+      "ats": {
+        "pick": "PIT",
+        "prob": 0.508,
+        "outcome": "win",
+        "logloss": 0.6780080732757188
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.568,
+        "outcome": "win",
+        "logloss": 0.5660911603416922
+      }
+    },
+    {
+      "gameId": "2026W01-BALIND",
+      "week": 1,
+      "home": "IND",
+      "away": "BAL",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "BAL -3.0",
+      "total": 48.5,
+      "lines": {
+        "spread": {
+          "open": 3.5,
+          "close": 3.0
+        },
+        "total": {
+          "open": 47.5,
+          "close": 48.5
+        },
+        "mlHome": {
+          "open": 145,
+          "close": 136
+        },
+        "mlAway": {
+          "open": -175,
+          "close": -162
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 23,
+      "awayScore": 41,
+      "ml": {
+        "pick": "BAL",
+        "prob": 0.605,
+        "price": -162,
+        "outcome": "win",
+        "logloss": 0.5032488753563037
+      },
+      "ats": {
+        "pick": "IND",
+        "prob": 0.508,
+        "outcome": "loss",
+        "logloss": 0.7085190081035964
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.555,
+        "outcome": "loss",
+        "logloss": 0.8087870045509392
+      }
+    },
+    {
+      "gameId": "2026W01-BUFHOU",
+      "week": 1,
+      "home": "HOU",
+      "away": "BUF",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "BUF -1.5",
+      "total": 44.5,
+      "lines": {
+        "spread": {
+          "open": 1.5,
+          "close": 1.5
+        },
+        "total": {
+          "open": 44.5,
+          "close": 44.5
+        },
+        "mlHome": {
+          "open": -105,
+          "close": -108
+        },
+        "mlAway": {
+          "open": -115,
+          "close": -112
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 31,
+      "awayScore": 36,
+      "ml": {
+        "pick": "BUF",
+        "prob": 0.541,
+        "price": -112,
+        "outcome": "win",
+        "logloss": 0.6146663167013786
+      },
+      "ats": {
+        "pick": "BUF",
+        "prob": 0.5,
+        "outcome": "win",
+        "logloss": 0.6930128928100283
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.561,
+        "outcome": "loss",
+        "logloss": 0.8235709530018065
+      }
+    },
+    {
+      "gameId": "2026W01-CHICAR",
+      "week": 1,
+      "home": "CAR",
+      "away": "CHI",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "CHI -3.0",
+      "total": 47.5,
+      "lines": {
+        "spread": {
+          "open": 3.0,
+          "close": 3.0
+        },
+        "total": {
+          "open": 47.5,
+          "close": 47.5
+        },
+        "mlHome": {
+          "open": 130,
+          "close": 140
+        },
+        "mlAway": {
+          "open": -155,
+          "close": -166
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 37,
+      "awayScore": 59,
+      "ml": {
+        "pick": "CHI",
+        "prob": 0.609,
+        "price": -166,
+        "outcome": "win",
+        "logloss": 0.49627651961649444
+      },
+      "ats": {
+        "pick": "CHI",
+        "prob": 0.5,
+        "outcome": "win",
+        "logloss": 0.6930128928100283
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.573,
+        "outcome": "loss",
+        "logloss": 0.8521036447418402
+      }
+    },
+    {
+      "gameId": "2026W01-CLEJAX",
+      "week": 1,
+      "home": "JAX",
+      "away": "CLE",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "JAX -8.5",
+      "total": 40.5,
+      "lines": {
+        "spread": {
+          "open": -8.5,
+          "close": -8.5
+        },
+        "total": {
+          "open": 40.5,
+          "close": 40.5
+        },
+        "mlHome": {
+          "open": -440,
+          "close": -470
+        },
+        "mlAway": {
+          "open": 340,
+          "close": 360
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 34,
+      "awayScore": 10,
+      "ml": {
+        "pick": "JAX",
+        "prob": 0.678,
+        "price": -470,
+        "outcome": "win",
+        "logloss": 0.3881760051942306
+      },
+      "ats": {
+        "pick": "JAX",
+        "prob": 0.508,
+        "outcome": "win",
+        "logloss": 0.6779447930749443
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.569,
+        "outcome": "loss",
+        "logloss": 0.8421205733298306
+      }
+    },
+    {
+      "gameId": "2026W01-NODET",
+      "week": 1,
+      "home": "DET",
+      "away": "NO",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "DET -7.0",
+      "total": 49.5,
+      "lines": {
+        "spread": {
+          "open": -7.0,
+          "close": -7.0
+        },
+        "total": {
+          "open": 49.5,
+          "close": 49.5
+        },
+        "mlHome": {
+          "open": -305,
+          "close": -325
+        },
+        "mlAway": {
+          "open": 245,
+          "close": 260
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 31,
+      "awayScore": 30,
+      "ml": {
+        "pick": "DET",
+        "prob": 0.654,
+        "price": -325,
+        "outcome": "win",
+        "logloss": 0.42472614544767745
+      },
+      "ats": {
+        "pick": "DET",
+        "prob": 0.508,
+        "outcome": "loss",
+        "logloss": 0.7085190081035964
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.553,
+        "outcome": "loss",
+        "logloss": 0.804167124608686
+      }
+    },
+    {
+      "gameId": "2026W01-NYJTEN",
+      "week": 1,
+      "home": "TEN",
+      "away": "NYJ",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "TEN -1.5",
+      "total": 39.5,
+      "lines": {
+        "spread": {
+          "open": -1.5,
+          "close": -1.5
+        },
+        "total": {
+          "open": 39.5,
+          "close": 39.5
+        },
+        "mlHome": {
+          "open": -125,
+          "close": -118
+        },
+        "mlAway": {
+          "open": 105,
+          "close": -102
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 10,
+      "awayScore": 23,
+      "ml": {
+        "pick": "NYJ",
+        "prob": 0.541,
+        "price": -102,
+        "outcome": "win",
+        "logloss": 0.6146663167013786
+      },
+      "ats": {
+        "pick": "TEN",
+        "prob": 0.508,
+        "outcome": "loss",
+        "logloss": 0.70858425299129
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.574,
+        "outcome": "win",
+        "logloss": 0.5547220796719619
+      }
+    },
+    {
+      "gameId": "2026W01-TBCIN",
+      "week": 1,
+      "home": "CIN",
+      "away": "TB",
+      "kickoff": "Sun 9/13 \u00b7 1:00 PM ET",
+      "spreadDisplay": "CIN -3.5",
+      "total": 50.5,
+      "lines": {
+        "spread": {
+          "open": -3.5,
+          "close": -3.5
+        },
+        "total": {
+          "open": 50.5,
+          "close": 50.5
+        },
+        "mlHome": {
+          "open": -205,
+          "close": -205
+        },
+        "mlAway": {
+          "open": 170,
+          "close": 170
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 33,
+      "awayScore": 27,
+      "ml": {
+        "pick": "CIN",
+        "prob": 0.556,
+        "price": -205,
+        "outcome": "win",
+        "logloss": 0.58622933457977
+      },
+      "ats": {
+        "pick": "TB",
+        "prob": 0.51,
+        "outcome": "loss",
+        "logloss": 0.7124677186952575
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.533,
+        "outcome": "loss",
+        "logloss": 0.7624658718483096
+      }
+    },
+    {
+      "gameId": "2026W01-ARILAC",
+      "week": 1,
+      "home": "LAC",
+      "away": "ARI",
+      "kickoff": "Sun 9/13 \u00b7 4:25 PM ET",
+      "spreadDisplay": "LAC -8.5",
+      "total": 47.5,
+      "lines": {
+        "spread": {
+          "open": -10.0,
+          "close": -8.5
+        },
+        "total": {
+          "open": 47.5,
+          "close": 47.5
+        },
+        "mlHome": {
+          "open": -500,
+          "close": -455
+        },
+        "mlAway": {
+          "open": 380,
+          "close": 350
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 14,
+      "awayScore": 26,
+      "ml": {
+        "pick": "LAC",
+        "prob": 0.8,
+        "price": -455,
+        "outcome": "loss",
+        "logloss": 1.6100312304751383
+      },
+      "ats": {
+        "pick": "ARI",
+        "prob": 0.5,
+        "outcome": "win",
+        "logloss": 0.6930128928100283
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.553,
+        "outcome": "win",
+        "logloss": 0.5932302648082931
+      }
+    },
+    {
+      "gameId": "2026W01-GBMIN",
+      "week": 1,
+      "home": "MIN",
+      "away": "GB",
+      "kickoff": "Sun 9/13 \u00b7 4:25 PM ET",
+      "spreadDisplay": "MIN -2.5",
+      "total": 46.5,
+      "lines": {
+        "spread": {
+          "open": -1.5,
+          "close": -2.5
+        },
+        "total": {
+          "open": 46.5,
+          "close": 46.5
+        },
+        "mlHome": {
+          "open": -125,
+          "close": -142
+        },
+        "mlAway": {
+          "open": 105,
+          "close": 120
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 39,
+      "awayScore": 22,
+      "ml": {
+        "pick": "GB",
+        "prob": 0.518,
+        "price": 120,
+        "outcome": "loss",
+        "logloss": 0.7305699484867105
+      },
+      "ats": {
+        "pick": "GB",
+        "prob": 0.5,
+        "outcome": "loss",
+        "logloss": 0.693281486345484
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.573,
+        "outcome": "loss",
+        "logloss": 0.8521036447418402
+      }
+    },
+    {
+      "gameId": "2026W01-MIALV",
+      "week": 1,
+      "home": "LV",
+      "away": "MIA",
+      "kickoff": "Sun 9/13 \u00b7 4:25 PM ET",
+      "spreadDisplay": "LV -3.0",
+      "total": 40.5,
+      "lines": {
+        "spread": {
+          "open": -3.5,
+          "close": -3.0
+        },
+        "total": {
+          "open": 41.5,
+          "close": 40.5
+        },
+        "mlHome": {
+          "open": -185,
+          "close": -170
+        },
+        "mlAway": {
+          "open": 154,
+          "close": 142
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 27,
+      "awayScore": 13,
+      "ml": {
+        "pick": "LV",
+        "prob": 0.575,
+        "price": -170,
+        "outcome": "win",
+        "logloss": 0.5542381754906931
+      },
+      "ats": {
+        "pick": "LV",
+        "prob": 0.515,
+        "outcome": "win",
+        "logloss": 0.6629091488383401
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.553,
+        "outcome": "win",
+        "logloss": 0.5932302648082931
+      }
+    },
+    {
+      "gameId": "2026W01-WASPHI",
+      "week": 1,
+      "home": "PHI",
+      "away": "WAS",
+      "kickoff": "Sun 9/13 \u00b7 4:25 PM ET",
+      "spreadDisplay": "PHI -6.0",
+      "total": 43.5,
+      "lines": {
+        "spread": {
+          "open": -5.5,
+          "close": -6.0
+        },
+        "total": {
+          "open": 44.5,
+          "close": 43.5
+        },
+        "mlHome": {
+          "open": -218,
+          "close": -245
+        },
+        "mlAway": {
+          "open": 180,
+          "close": 200
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 24,
+      "awayScore": 22,
+      "ml": {
+        "pick": "PHI",
+        "prob": 0.564,
+        "price": -245,
+        "outcome": "win",
+        "logloss": 0.5731759744114727
+      },
+      "ats": {
+        "pick": "WAS",
+        "prob": 0.5,
+        "outcome": "win",
+        "logloss": 0.6930128928100283
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.553,
+        "outcome": "loss",
+        "logloss": 0.804464325284516
+      }
+    },
+    {
+      "gameId": "2026W01-DALNYG",
+      "week": 1,
+      "home": "NYG",
+      "away": "DAL",
+      "kickoff": "Sun 9/13 \u00b7 8:20 PM ET",
+      "spreadDisplay": "DAL -3.0",
+      "total": 47.5,
+      "lines": {
+        "spread": {
+          "open": 3.0,
+          "close": 3.0
+        },
+        "total": {
+          "open": 48.5,
+          "close": 47.5
+        },
+        "mlHome": {
+          "open": 136,
+          "close": 140
+        },
+        "mlAway": {
+          "open": -162,
+          "close": -166
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 28,
+      "awayScore": 20,
+      "ml": {
+        "pick": "DAL",
+        "prob": 0.619,
+        "price": -166,
+        "outcome": "loss",
+        "logloss": 0.9655061854940931
+      },
+      "ats": {
+        "pick": "DAL",
+        "prob": 0.5,
+        "outcome": "loss",
+        "logloss": 0.693281486345484
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.573,
+        "outcome": "loss",
+        "logloss": 0.8521036447418402
+      }
+    },
+    {
+      "gameId": "2026W01-DENKC",
+      "week": 1,
+      "home": "KC",
+      "away": "DEN",
+      "kickoff": "Mon 9/14 \u00b7 8:15 PM ET",
+      "spreadDisplay": "KC -2.5",
+      "total": 42.5,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": -2.5
+        },
+        "total": {
+          "open": 43.5,
+          "close": 42.5
+        },
+        "mlHome": {
+          "open": -148,
+          "close": -130
+        },
+        "mlAway": {
+          "open": 124,
+          "close": 110
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 31,
+      "awayScore": 10,
+      "ml": {
+        "pick": "DEN",
+        "prob": 0.518,
+        "price": 110,
+        "outcome": "loss",
+        "logloss": 0.7305699484867105
+      },
+      "ats": {
+        "pick": "KC",
+        "prob": 0.508,
+        "outcome": "win",
+        "logloss": 0.6780080732757188
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.568,
+        "outcome": "win",
+        "logloss": 0.5660911603416922
+      }
+    },
+    {
+      "gameId": "2026W02-DETBUF",
+      "week": 2,
+      "home": "BUF",
+      "away": "DET",
+      "kickoff": "Thu 9/17 \u00b7 8:15 PM ET",
+      "spreadDisplay": "BUF -5.5",
+      "total": 54.5,
+      "lines": {
+        "spread": {
+          "open": -4.5,
+          "close": -5.5
+        },
+        "total": {
+          "open": 53.5,
+          "close": 54.5
+        },
+        "mlHome": {
+          "open": -205,
+          "close": -238
+        },
+        "mlAway": {
+          "open": 170,
+          "close": 195
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 41,
+      "awayScore": 31,
+      "ml": {
+        "pick": "BUF",
+        "prob": 0.573,
+        "price": -238,
+        "outcome": "win",
+        "logloss": 0.5577251239675952
+      },
+      "ats": {
+        "pick": "DET",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.56,
+        "outcome": "win",
+        "logloss": 0.5805099016487638
+      }
+    },
+    {
+      "gameId": "2026W02-CARATL",
+      "week": 2,
+      "home": "ATL",
+      "away": "CAR",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "CAR -2.5",
+      "total": 43.5,
+      "lines": {
+        "spread": {
+          "open": 1.5,
+          "close": 2.5
+        },
+        "total": {
+          "open": 44.5,
+          "close": 43.5
+        },
+        "mlHome": {
+          "open": 105,
+          "close": 130
+        },
+        "mlAway": {
+          "open": -125,
+          "close": -155
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 3,
+      "awayScore": 34,
+      "ml": {
+        "pick": "ATL",
+        "prob": 0.557,
+        "price": 130,
+        "outcome": "loss",
+        "logloss": 0.8140009032899561
+      },
+      "ats": {
+        "pick": "CAR",
+        "prob": 0.541,
+        "outcome": "win",
+        "logloss": 0.614638208479744
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.56,
+        "outcome": "loss",
+        "logloss": 0.8201012711131144
+      }
+    },
+    {
+      "gameId": "2026W02-CINHOU",
+      "week": 2,
+      "home": "HOU",
+      "away": "CIN",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "HOU -3.0",
+      "total": 45.5,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": -3.0
+        },
+        "total": {
+          "open": 46.5,
+          "close": 45.5
+        },
+        "mlHome": {
+          "open": -148,
+          "close": -148
+        },
+        "mlAway": {
+          "open": 124,
+          "close": 124
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 6,
+      "awayScore": 20,
+      "ml": {
+        "pick": "HOU",
+        "prob": 0.608,
+        "price": -148,
+        "outcome": "loss",
+        "logloss": 0.9371264481566927
+      },
+      "ats": {
+        "pick": "HOU",
+        "prob": 0.528,
+        "outcome": "loss",
+        "logloss": 0.750638129405493
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.576,
+        "outcome": "loss",
+        "logloss": 0.8587722490085177
+      }
+    },
+    {
+      "gameId": "2026W02-CLETB",
+      "week": 2,
+      "home": "TB",
+      "away": "CLE",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "TB -8.5",
+      "total": 41.5,
+      "lines": {
+        "spread": {
+          "open": -8.5,
+          "close": -8.5
+        },
+        "total": {
+          "open": 40.5,
+          "close": 41.5
+        },
+        "mlHome": {
+          "open": -410,
+          "close": -425
+        },
+        "mlAway": {
+          "open": 320,
+          "close": 330
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 19,
+      "awayScore": 23,
+      "ml": {
+        "pick": "TB",
+        "prob": 0.592,
+        "price": -425,
+        "outcome": "loss",
+        "logloss": 0.8960907177054551
+      },
+      "ats": {
+        "pick": "CLE",
+        "prob": 0.541,
+        "outcome": "win",
+        "logloss": 0.614638208479744
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.512,
+        "outcome": "loss",
+        "logloss": 0.7174242922000321
+      }
+    },
+    {
+      "gameId": "2026W02-GBNYJ",
+      "week": 2,
+      "home": "NYJ",
+      "away": "GB",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "GB -3.5",
+      "total": 44.5,
+      "lines": {
+        "spread": {
+          "open": 4.5,
+          "close": 3.5
+        },
+        "total": {
+          "open": 44.5,
+          "close": 44.5
+        },
+        "mlHome": {
+          "open": 170,
+          "close": 154
+        },
+        "mlAway": {
+          "open": -205,
+          "close": -185
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 17,
+      "awayScore": 20,
+      "ml": {
+        "pick": "NYJ",
+        "prob": 0.546,
+        "price": 154,
+        "outcome": "loss",
+        "logloss": 0.7906680528109626
+      },
+      "ats": {
+        "pick": "GB",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.627,
+        "outcome": "loss",
+        "logloss": 0.986805055242952
+      }
+    },
+    {
+      "gameId": "2026W02-MINCHI",
+      "week": 2,
+      "home": "CHI",
+      "away": "MIN",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "CHI -4.5",
+      "total": 46.5,
+      "lines": {
+        "spread": {
+          "open": -5.5,
+          "close": -4.5
+        },
+        "total": {
+          "open": 49.5,
+          "close": 46.5
+        },
+        "mlHome": {
+          "open": -238,
+          "close": -218
+        },
+        "mlAway": {
+          "open": 195,
+          "close": 180
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 3,
+      "awayScore": 9,
+      "ml": {
+        "pick": "CHI",
+        "prob": 0.606,
+        "price": -218,
+        "outcome": "loss",
+        "logloss": 0.9309103333492114
+      },
+      "ats": {
+        "pick": "CHI",
+        "prob": 0.597,
+        "outcome": "loss",
+        "logloss": 0.9083677796730543
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.538,
+        "outcome": "loss",
+        "logloss": 0.7722823453143844
+      }
+    },
+    {
+      "gameId": "2026W02-NOBAL",
+      "week": 2,
+      "home": "BAL",
+      "away": "NO",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "BAL -8.5",
+      "total": 45.5,
+      "lines": {
+        "spread": {
+          "open": -8.5,
+          "close": -8.5
+        },
+        "total": {
+          "open": 46.5,
+          "close": 45.5
+        },
+        "mlHome": {
+          "open": -410,
+          "close": -375
+        },
+        "mlAway": {
+          "open": 320,
+          "close": 295
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 17,
+      "awayScore": 24,
+      "ml": {
+        "pick": "BAL",
+        "prob": 0.573,
+        "price": -375,
+        "outcome": "loss",
+        "logloss": 0.8498243190643993
+      },
+      "ats": {
+        "pick": "NO",
+        "prob": 0.541,
+        "outcome": "win",
+        "logloss": 0.614638208479744
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.538,
+        "outcome": "loss",
+        "logloss": 0.7722823453143844
+      }
+    },
+    {
+      "gameId": "2026W02-PHITEN",
+      "week": 2,
+      "home": "TEN",
+      "away": "PHI",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "PHI -7.0",
+      "total": 39.5,
+      "lines": {
+        "spread": {
+          "open": 7.0,
+          "close": 7.0
+        },
+        "total": {
+          "open": 39.5,
+          "close": 39.5
+        },
+        "mlHome": {
+          "open": 245,
+          "close": 260
+        },
+        "mlAway": {
+          "open": -305,
+          "close": -325
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 20,
+      "awayScore": 24,
+      "ml": {
+        "pick": "TEN",
+        "prob": 0.546,
+        "price": 260,
+        "outcome": "loss",
+        "logloss": 0.7906680528109626
+      },
+      "ats": {
+        "pick": "PHI",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.5,
+        "outcome": "loss",
+        "logloss": 0.6932905191599705
+      }
+    },
+    {
+      "gameId": "2026W02-PITNE",
+      "week": 2,
+      "home": "NE",
+      "away": "PIT",
+      "kickoff": "Sun 9/20 \u00b7 1:00 PM ET",
+      "spreadDisplay": "NE -4.5",
+      "total": 41.5,
+      "lines": {
+        "spread": {
+          "open": -5.5,
+          "close": -4.5
+        },
+        "total": {
+          "open": 42.5,
+          "close": 41.5
+        },
+        "mlHome": {
+          "open": -230,
+          "close": -225
+        },
+        "mlAway": {
+          "open": 190,
+          "close": 185
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 20,
+      "awayScore": 3,
+      "ml": {
+        "pick": "NE",
+        "prob": 0.592,
+        "price": -225,
+        "outcome": "win",
+        "logloss": 0.5245226107843651
+      },
+      "ats": {
+        "pick": "PIT",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.576,
+        "outcome": "loss",
+        "logloss": 0.8587722490085177
+      }
+    },
+    {
+      "gameId": "2026W02-JAXDEN",
+      "week": 2,
+      "home": "DEN",
+      "away": "JAX",
+      "kickoff": "Sun 9/20 \u00b7 4:05 PM ET",
+      "spreadDisplay": "DEN -2.5",
+      "total": 45.5,
+      "lines": {
+        "spread": {
+          "open": -2.5,
+          "close": -2.5
+        },
+        "total": {
+          "open": 44.5,
+          "close": 45.5
+        },
+        "mlHome": {
+          "open": -135,
+          "close": -148
+        },
+        "mlAway": {
+          "open": 114,
+          "close": 124
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 20,
+      "awayScore": 13,
+      "ml": {
+        "pick": "DEN",
+        "prob": 0.557,
+        "price": -148,
+        "outcome": "win",
+        "logloss": 0.5853368861930239
+      },
+      "ats": {
+        "pick": "JAX",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.61,
+        "outcome": "loss",
+        "logloss": 0.942216506182847
+      }
+    },
+    {
+      "gameId": "2026W02-LVLAC",
+      "week": 2,
+      "home": "LAC",
+      "away": "LV",
+      "kickoff": "Sun 9/20 \u00b7 4:05 PM ET",
+      "spreadDisplay": "LAC -6.5",
+      "total": 43.5,
+      "lines": {
+        "spread": {
+          "open": -7.0,
+          "close": -6.5
+        },
+        "total": {
+          "open": 43.5,
+          "close": 43.5
+        },
+        "mlHome": {
+          "open": -310,
+          "close": -325
+        },
+        "mlAway": {
+          "open": 250,
+          "close": 260
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 14,
+      "awayScore": 26,
+      "ml": {
+        "pick": "LAC",
+        "prob": 0.608,
+        "price": -325,
+        "outcome": "loss",
+        "logloss": 0.9371264481566927
+      },
+      "ats": {
+        "pick": "LAC",
+        "prob": 0.528,
+        "outcome": "loss",
+        "logloss": 0.750638129405493
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.529,
+        "outcome": "loss",
+        "logloss": 0.7528000911618967
+      }
+    },
+    {
+      "gameId": "2026W02-MIASF",
+      "week": 2,
+      "home": "SF",
+      "away": "MIA",
+      "kickoff": "Sun 9/20 \u00b7 4:25 PM ET",
+      "spreadDisplay": "SF -12.5",
+      "total": 44.5,
+      "lines": {
+        "spread": {
+          "open": -13.5,
+          "close": -12.5
+        },
+        "total": {
+          "open": 45.5,
+          "close": 44.5
+        },
+        "mlHome": {
+          "open": -950,
+          "close": -900
+        },
+        "mlAway": {
+          "open": 625,
+          "close": 600
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 35,
+      "awayScore": 13,
+      "ml": {
+        "pick": "SF",
+        "prob": 0.636,
+        "price": -900,
+        "outcome": "win",
+        "logloss": 0.45195064554258185
+      },
+      "ats": {
+        "pick": "MIA",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.538,
+        "outcome": "win",
+        "logloss": 0.6198177584211766
+      }
+    },
+    {
+      "gameId": "2026W02-SEAARI",
+      "week": 2,
+      "home": "ARI",
+      "away": "SEA",
+      "kickoff": "Sun 9/20 \u00b7 4:25 PM ET",
+      "spreadDisplay": "SEA -3.5",
+      "total": 40.5,
+      "lines": {
+        "spread": {
+          "open": 4.5,
+          "close": 3.5
+        },
+        "total": {
+          "open": 41.5,
+          "close": 40.5
+        },
+        "mlHome": {
+          "open": 185,
+          "close": 180
+        },
+        "mlAway": {
+          "open": -225,
+          "close": -218
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 7,
+      "awayScore": 31,
+      "ml": {
+        "pick": "ARI",
+        "prob": 0.546,
+        "price": 180,
+        "outcome": "loss",
+        "logloss": 0.7906680528109626
+      },
+      "ats": {
+        "pick": "SEA",
+        "prob": 0.541,
+        "outcome": "win",
+        "logloss": 0.614638208479744
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.533,
+        "outcome": "loss",
+        "logloss": 0.7618175140332191
+      }
+    },
+    {
+      "gameId": "2026W02-WASDAL",
+      "week": 2,
+      "home": "DAL",
+      "away": "WAS",
+      "kickoff": "Sun 9/20 \u00b7 4:25 PM ET",
+      "spreadDisplay": "DAL -3.5",
+      "total": 51.5,
+      "lines": {
+        "spread": {
+          "open": -3.5,
+          "close": -3.5
+        },
+        "total": {
+          "open": 50.5,
+          "close": 51.5
+        },
+        "mlHome": {
+          "open": -225,
+          "close": -205
+        },
+        "mlAway": {
+          "open": 185,
+          "close": 170
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 37,
+      "awayScore": 20,
+      "ml": {
+        "pick": "DAL",
+        "prob": 0.573,
+        "price": -205,
+        "outcome": "win",
+        "logloss": 0.5577251239675952
+      },
+      "ats": {
+        "pick": "WAS",
+        "prob": 0.541,
+        "outcome": "loss",
+        "logloss": 0.7783489885089567
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.569,
+        "outcome": "win",
+        "logloss": 0.5639747910488678
+      }
+    },
+    {
+      "gameId": "2026W02-INDKC",
+      "week": 2,
+      "home": "KC",
+      "away": "IND",
+      "kickoff": "Sun 9/20 \u00b7 8:20 PM ET",
+      "spreadDisplay": "KC -6.0",
+      "total": 46.5,
+      "lines": {
+        "spread": {
+          "open": -6.5,
+          "close": -6.0
+        },
+        "total": {
+          "open": 47.5,
+          "close": 46.5
+        },
+        "mlHome": {
+          "open": -305,
+          "close": -265
+        },
+        "mlAway": {
+          "open": 245,
+          "close": 215
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 33,
+      "awayScore": 30,
+      "ml": {
+        "pick": "KC",
+        "prob": 0.573,
+        "price": -265,
+        "outcome": "win",
+        "logloss": 0.5577251239675952
+      },
+      "ats": {
+        "pick": "IND",
+        "prob": 0.541,
+        "outcome": "win",
+        "logloss": 0.614638208479744
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.529,
+        "outcome": "loss",
+        "logloss": 0.7527192297639217
+      }
+    },
+    {
+      "gameId": "2026W02-NYGLA",
+      "week": 2,
+      "home": "LA",
+      "away": "NYG",
+      "kickoff": "Mon 9/21 \u00b7 8:15 PM ET",
+      "spreadDisplay": "LA -6.5",
+      "total": 47.5,
+      "lines": {
+        "spread": {
+          "open": -7.0,
+          "close": -6.5
+        },
+        "total": {
+          "open": 48.5,
+          "close": 47.5
+        },
+        "mlHome": {
+          "open": -355,
+          "close": -285
+        },
+        "mlAway": {
+          "open": 280,
+          "close": 230
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 28,
+      "awayScore": 6,
+      "ml": {
+        "pick": "LA",
+        "prob": 0.589,
+        "price": -285,
+        "outcome": "win",
+        "logloss": 0.5290611410901892
+      },
+      "ats": {
+        "pick": "LA",
+        "prob": 0.528,
+        "outcome": "win",
+        "logloss": 0.6387825216721312
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.542,
+        "outcome": "loss",
+        "logloss": 0.7817252754935377
+      }
+    },
+    {
+      "gameId": "2026W03-ATLGB",
+      "week": 3,
+      "home": "GB",
+      "away": "ATL",
+      "kickoff": "Thu 9/24 \u00b7 8:15 PM ET",
+      "spreadDisplay": "GB -4.5",
+      "total": 43.5,
+      "lines": {
+        "spread": {
+          "open": -6.0,
+          "close": -4.5
+        },
+        "total": {
+          "open": 44.5,
+          "close": 43.5
+        },
+        "mlHome": {
+          "open": -290,
+          "close": -238
+        },
+        "mlAway": {
+          "open": 235,
+          "close": 195
+        },
+        "openBook": "DraftKings",
+        "closeBook": "DraftKings"
+      },
+      "homeScore": 14,
+      "awayScore": 35,
+      "ml": {
+        "pick": "GB",
+        "prob": 0.692,
+        "price": -238,
+        "outcome": "loss",
+        "logloss": 1.1791843831180402
+      },
+      "ats": {
+        "pick": "ATL",
+        "prob": 0.516,
+        "outcome": "win",
+        "logloss": 0.6610560445749765
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.54,
+        "outcome": "win",
+        "logloss": 0.615823817553479
+      }
+    },
+    {
+      "gameId": "2026W03-CARCLE",
+      "week": 3,
+      "home": "CLE",
+      "away": "CAR",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 2.5,
+          "close": null
+        },
+        "total": {
+          "open": 42.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 130,
+          "close": null
+        },
+        "mlAway": {
+          "open": -155,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "CAR",
+        "prob": 0.58,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "CLE",
+        "prob": 0.52,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.501,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-CINPIT",
+      "week": 3,
+      "home": "PIT",
+      "away": "CIN",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 3.5,
+          "close": null
+        },
+        "total": {
+          "open": 42.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 154,
+          "close": null
+        },
+        "mlAway": {
+          "open": -185,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "CIN",
+        "prob": 0.614,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "PIT",
+        "prob": 0.56,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.516,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-HOUIND",
+      "week": 3,
+      "home": "IND",
+      "away": "HOU",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 2.5,
+          "close": null
+        },
+        "total": {
+          "open": 43.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 120,
+          "close": null
+        },
+        "mlAway": {
+          "open": -142,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "HOU",
+        "prob": 0.563,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "IND",
+        "prob": 0.504,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.543,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-KCMIA",
+      "week": 3,
+      "home": "MIA",
+      "away": "KC",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 11.5,
+          "close": null
+        },
+        "total": {
+          "open": 45.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 575,
+          "close": null
+        },
+        "mlAway": {
+          "open": -850,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "KC",
+        "prob": 0.827,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "MIA",
+        "prob": 0.731,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.528,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-LACBUF",
+      "week": 3,
+      "home": "BUF",
+      "away": "LAC",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": -7.0,
+          "close": null
+        },
+        "total": {
+          "open": 50.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": -340,
+          "close": null
+        },
+        "mlAway": {
+          "open": 270,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "BUF",
+        "prob": 0.712,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "LAC",
+        "prob": 0.613,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.577,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-NEJAX",
+      "week": 3,
+      "home": "JAX",
+      "away": "NE",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": null
+        },
+        "total": {
+          "open": 45.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": -162,
+          "close": null
+        },
+        "mlAway": {
+          "open": 136,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "JAX",
+        "prob": 0.584,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "NE",
+        "prob": 0.513,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.581,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-NYJDET",
+      "week": 3,
+      "home": "DET",
+      "away": "NYJ",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": -6.5,
+          "close": null
+        },
+        "total": {
+          "open": 48.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": -305,
+          "close": null
+        },
+        "mlAway": {
+          "open": 245,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "DET",
+        "prob": 0.7,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "DET",
+        "prob": 0.512,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.548,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-SEAWAS",
+      "week": 3,
+      "home": "WAS",
+      "away": "SEA",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 7.0,
+          "close": null
+        },
+        "total": {
+          "open": 40.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 240,
+          "close": null
+        },
+        "mlAway": {
+          "open": -298,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "SEA",
+        "prob": 0.702,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "WAS",
+        "prob": 0.741,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.514,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-TENNYG",
+      "week": 3,
+      "home": "NYG",
+      "away": "TEN",
+      "kickoff": "Sun 9/27 \u00b7 1:00 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": null,
+          "close": null
+        },
+        "total": {
+          "open": null,
+          "close": null
+        },
+        "mlHome": {
+          "open": null,
+          "close": null
+        },
+        "mlAway": {
+          "open": null,
+          "close": null
+        },
+        "openBook": null,
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "TEN",
+        "prob": 0.554,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "TEN",
+        "prob": 0.507,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.574,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-ARISF",
+      "week": 3,
+      "home": "SF",
+      "away": "ARI",
+      "kickoff": "Sun 9/27 \u00b7 4:05 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": -8.5,
+          "close": null
+        },
+        "total": {
+          "open": 47.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": -455,
+          "close": null
+        },
+        "mlAway": {
+          "open": 350,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "SF",
+        "prob": 0.761,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "SF",
+        "prob": 0.527,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.506,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-MINTB",
+      "week": 3,
+      "home": "TB",
+      "away": "MIN",
+      "kickoff": "Sun 9/27 \u00b7 4:05 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 1.5,
+          "close": null
+        },
+        "total": {
+          "open": 42.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 102,
+          "close": null
+        },
+        "mlAway": {
+          "open": -122,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "MIN",
+        "prob": 0.528,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "TB",
+        "prob": 0.527,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.509,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-BALDAL",
+      "week": 3,
+      "home": "DAL",
+      "away": "BAL",
+      "kickoff": "Sun 9/27 \u00b7 4:25 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 3.0,
+          "close": null
+        },
+        "total": {
+          "open": 52.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 130,
+          "close": null
+        },
+        "mlAway": {
+          "open": -155,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "BAL",
+        "prob": 0.581,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "DAL",
+        "prob": 0.524,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.543,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-LVNO",
+      "week": 3,
+      "home": "NO",
+      "away": "LV",
+      "kickoff": "Sun 9/27 \u00b7 4:25 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": -3.0,
+          "close": null
+        },
+        "total": {
+          "open": 43.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": -175,
+          "close": null
+        },
+        "mlAway": {
+          "open": 145,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "NO",
+        "prob": 0.598,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "NO",
+        "prob": 0.6,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Over",
+        "prob": 0.598,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-LADEN",
+      "week": 3,
+      "home": "DEN",
+      "away": "LA",
+      "kickoff": "Sun 9/27 \u00b7 8:20 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 2.5,
+          "close": null
+        },
+        "total": {
+          "open": 45.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 114,
+          "close": null
+        },
+        "mlAway": {
+          "open": -135,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "LA",
+        "prob": 0.55,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "DEN",
+        "prob": 0.555,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.545,
+        "outcome": null
+      }
+    },
+    {
+      "gameId": "2026W03-PHICHI",
+      "week": 3,
+      "home": "CHI",
+      "away": "PHI",
+      "kickoff": "Mon 9/28 \u00b7 8:15 PM ET",
+      "spreadDisplay": null,
+      "total": null,
+      "lines": {
+        "spread": {
+          "open": 3.0,
+          "close": null
+        },
+        "total": {
+          "open": 44.5,
+          "close": null
+        },
+        "mlHome": {
+          "open": 142,
+          "close": null
+        },
+        "mlAway": {
+          "open": -170,
+          "close": null
+        },
+        "openBook": "DraftKings",
+        "closeBook": null
+      },
+      "final": false,
+      "ml": {
+        "pick": "PHI",
+        "prob": 0.6,
+        "price": null,
+        "outcome": null
+      },
+      "ats": {
+        "pick": "CHI",
+        "prob": 0.524,
+        "outcome": null
+      },
+      "tot": {
+        "pick": "Under",
+        "prob": 0.582,
+        "outcome": null
+      }
+    }
+  ],
+  "teams": {
+    "ARI": {
+      "abbr": "ARI",
+      "name": "Cardinals",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 0.0,
+        "ats": 100.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "LAC",
+          "isHome": false,
+          "teamScore": 26,
+          "oppScore": 14,
+          "won": true,
+          "mlPick": "LAC",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "SEA",
+          "isHome": true,
+          "teamScore": 7,
+          "oppScore": 31,
+          "won": false,
+          "mlPick": "ARI",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "ATL": {
+      "abbr": "ATL",
+      "name": "Falcons",
+      "record": {
+        "wins": 1,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 33.3,
+        "ats": 100.0,
+        "tot": 66.7
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "PIT",
+          "isHome": false,
+          "teamScore": 13,
+          "oppScore": 20,
+          "won": false,
+          "mlPick": "PIT",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "CAR",
+          "isHome": true,
+          "teamScore": 3,
+          "oppScore": 34,
+          "won": false,
+          "mlPick": "ATL",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 3,
+          "opponent": "GB",
+          "isHome": false,
+          "teamScore": 35,
+          "oppScore": 14,
+          "won": true,
+          "mlPick": "GB",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "BAL": {
+      "abbr": "BAL",
+      "name": "Ravens",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "IND",
+          "isHome": false,
+          "teamScore": 41,
+          "oppScore": 23,
+          "won": true,
+          "mlPick": "BAL",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "NO",
+          "isHome": true,
+          "teamScore": 17,
+          "oppScore": 24,
+          "won": false,
+          "mlPick": "BAL",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "BUF": {
+      "abbr": "BUF",
+      "name": "Bills",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "HOU",
+          "isHome": false,
+          "teamScore": 36,
+          "oppScore": 31,
+          "won": true,
+          "mlPick": "BUF",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "DET",
+          "isHome": true,
+          "teamScore": 41,
+          "oppScore": 31,
+          "won": true,
+          "mlPick": "BUF",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "CAR": {
+      "abbr": "CAR",
+      "name": "Panthers",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 100.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "CHI",
+          "isHome": true,
+          "teamScore": 37,
+          "oppScore": 59,
+          "won": false,
+          "mlPick": "CHI",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "ATL",
+          "isHome": false,
+          "teamScore": 34,
+          "oppScore": 3,
+          "won": true,
+          "mlPick": "ATL",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "CHI": {
+      "abbr": "CHI",
+      "name": "Bears",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "CAR",
+          "isHome": false,
+          "teamScore": 59,
+          "oppScore": 37,
+          "won": true,
+          "mlPick": "CHI",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "MIN",
+          "isHome": true,
+          "teamScore": 3,
+          "oppScore": 9,
+          "won": false,
+          "mlPick": "CHI",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "CIN": {
+      "abbr": "CIN",
+      "name": "Bengals",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 0.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "TB",
+          "isHome": true,
+          "teamScore": 33,
+          "oppScore": 27,
+          "won": true,
+          "mlPick": "CIN",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "HOU",
+          "isHome": false,
+          "teamScore": 20,
+          "oppScore": 6,
+          "won": true,
+          "mlPick": "HOU",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "CLE": {
+      "abbr": "CLE",
+      "name": "Browns",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 100.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "JAX",
+          "isHome": false,
+          "teamScore": 10,
+          "oppScore": 34,
+          "won": false,
+          "mlPick": "JAX",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "TB",
+          "isHome": false,
+          "teamScore": 23,
+          "oppScore": 19,
+          "won": true,
+          "mlPick": "TB",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "DAL": {
+      "abbr": "DAL",
+      "name": "Cowboys",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 0.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "NYG",
+          "isHome": false,
+          "teamScore": 20,
+          "oppScore": 28,
+          "won": false,
+          "mlPick": "DAL",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "WAS",
+          "isHome": true,
+          "teamScore": 37,
+          "oppScore": 20,
+          "won": true,
+          "mlPick": "DAL",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "DEN": {
+      "abbr": "DEN",
+      "name": "Broncos",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "KC",
+          "isHome": false,
+          "teamScore": 10,
+          "oppScore": 31,
+          "won": false,
+          "mlPick": "DEN",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "JAX",
+          "isHome": true,
+          "teamScore": 20,
+          "oppScore": 13,
+          "won": true,
+          "mlPick": "DEN",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "DET": {
+      "abbr": "DET",
+      "name": "Lions",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 0.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "NO",
+          "isHome": true,
+          "teamScore": 31,
+          "oppScore": 30,
+          "won": true,
+          "mlPick": "DET",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "BUF",
+          "isHome": false,
+          "teamScore": 31,
+          "oppScore": 41,
+          "won": false,
+          "mlPick": "BUF",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "GB": {
+      "abbr": "GB",
+      "name": "Packers",
+      "record": {
+        "wins": 1,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 0.0,
+        "ats": 33.3,
+        "tot": 33.3
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "MIN",
+          "isHome": false,
+          "teamScore": 22,
+          "oppScore": 39,
+          "won": false,
+          "mlPick": "GB",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "NYJ",
+          "isHome": false,
+          "teamScore": 20,
+          "oppScore": 17,
+          "won": true,
+          "mlPick": "NYJ",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 3,
+          "opponent": "ATL",
+          "isHome": true,
+          "teamScore": 14,
+          "oppScore": 35,
+          "won": false,
+          "mlPick": "GB",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "HOU": {
+      "abbr": "HOU",
+      "name": "Texans",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "BUF",
+          "isHome": true,
+          "teamScore": 31,
+          "oppScore": 36,
+          "won": false,
+          "mlPick": "BUF",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "CIN",
+          "isHome": true,
+          "teamScore": 6,
+          "oppScore": 20,
+          "won": false,
+          "mlPick": "HOU",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "IND": {
+      "abbr": "IND",
+      "name": "Colts",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "BAL",
+          "isHome": true,
+          "teamScore": 23,
+          "oppScore": 41,
+          "won": false,
+          "mlPick": "BAL",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "KC",
+          "isHome": false,
+          "teamScore": 30,
+          "oppScore": 33,
+          "won": false,
+          "mlPick": "KC",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "JAX": {
+      "abbr": "JAX",
+      "name": "Jaguars",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "CLE",
+          "isHome": true,
+          "teamScore": 34,
+          "oppScore": 10,
+          "won": true,
+          "mlPick": "JAX",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "DEN",
+          "isHome": false,
+          "teamScore": 13,
+          "oppScore": 20,
+          "won": false,
+          "mlPick": "DEN",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "KC": {
+      "abbr": "KC",
+      "name": "Chiefs",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 100.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "DEN",
+          "isHome": true,
+          "teamScore": 31,
+          "oppScore": 10,
+          "won": true,
+          "mlPick": "DEN",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "IND",
+          "isHome": true,
+          "teamScore": 33,
+          "oppScore": 30,
+          "won": true,
+          "mlPick": "KC",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "LA": {
+      "abbr": "LA",
+      "name": "Rams",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 100.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "SF",
+          "isHome": true,
+          "teamScore": 7,
+          "oppScore": 27,
+          "won": false,
+          "mlPick": "LA",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "NYG",
+          "isHome": true,
+          "teamScore": 28,
+          "oppScore": 6,
+          "won": true,
+          "mlPick": "LA",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "LAC": {
+      "abbr": "LAC",
+      "name": "Chargers",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 0.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "ARI",
+          "isHome": true,
+          "teamScore": 14,
+          "oppScore": 26,
+          "won": false,
+          "mlPick": "LAC",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "LV",
+          "isHome": true,
+          "teamScore": 14,
+          "oppScore": 26,
+          "won": false,
+          "mlPick": "LAC",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "LV": {
+      "abbr": "LV",
+      "name": "Raiders",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "MIA",
+          "isHome": true,
+          "teamScore": 27,
+          "oppScore": 13,
+          "won": true,
+          "mlPick": "LV",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "LAC",
+          "isHome": false,
+          "teamScore": 26,
+          "oppScore": 14,
+          "won": true,
+          "mlPick": "LAC",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "MIA": {
+      "abbr": "MIA",
+      "name": "Dolphins",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 100.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "LV",
+          "isHome": false,
+          "teamScore": 13,
+          "oppScore": 27,
+          "won": false,
+          "mlPick": "LV",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "SF",
+          "isHome": false,
+          "teamScore": 13,
+          "oppScore": 35,
+          "won": false,
+          "mlPick": "SF",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "MIN": {
+      "abbr": "MIN",
+      "name": "Vikings",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 0.0,
+        "ats": 0.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "GB",
+          "isHome": true,
+          "teamScore": 39,
+          "oppScore": 22,
+          "won": true,
+          "mlPick": "GB",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "CHI",
+          "isHome": false,
+          "teamScore": 9,
+          "oppScore": 3,
+          "won": true,
+          "mlPick": "CHI",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "NE": {
+      "abbr": "NE",
+      "name": "Patriots",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 0.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "SEA",
+          "isHome": false,
+          "teamScore": 10,
+          "oppScore": 13,
+          "won": false,
+          "mlPick": "SEA",
+          "mlOutcome": "win",
+          "atsOutcome": "push",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "PIT",
+          "isHome": true,
+          "teamScore": 20,
+          "oppScore": 3,
+          "won": true,
+          "mlPick": "NE",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "NO": {
+      "abbr": "NO",
+      "name": "Saints",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "DET",
+          "isHome": false,
+          "teamScore": 30,
+          "oppScore": 31,
+          "won": false,
+          "mlPick": "DET",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "BAL",
+          "isHome": false,
+          "teamScore": 24,
+          "oppScore": 17,
+          "won": true,
+          "mlPick": "BAL",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "NYG": {
+      "abbr": "NYG",
+      "name": "Giants",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "DAL",
+          "isHome": true,
+          "teamScore": 28,
+          "oppScore": 20,
+          "won": true,
+          "mlPick": "DAL",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "LA",
+          "isHome": false,
+          "teamScore": 6,
+          "oppScore": 28,
+          "won": false,
+          "mlPick": "LA",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "NYJ": {
+      "abbr": "NYJ",
+      "name": "Jets",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 0.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "TEN",
+          "isHome": false,
+          "teamScore": 23,
+          "oppScore": 10,
+          "won": true,
+          "mlPick": "NYJ",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "GB",
+          "isHome": true,
+          "teamScore": 17,
+          "oppScore": 20,
+          "won": false,
+          "mlPick": "NYJ",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "PHI": {
+      "abbr": "PHI",
+      "name": "Eagles",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "WAS",
+          "isHome": true,
+          "teamScore": 24,
+          "oppScore": 22,
+          "won": true,
+          "mlPick": "PHI",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "TEN",
+          "isHome": false,
+          "teamScore": 24,
+          "oppScore": 20,
+          "won": true,
+          "mlPick": "TEN",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "PIT": {
+      "abbr": "PIT",
+      "name": "Steelers",
+      "record": {
+        "wins": 1,
+        "losses": 1
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "ATL",
+          "isHome": true,
+          "teamScore": 20,
+          "oppScore": 13,
+          "won": true,
+          "mlPick": "PIT",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "NE",
+          "isHome": false,
+          "teamScore": 3,
+          "oppScore": 20,
+          "won": false,
+          "mlPick": "NE",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "SEA": {
+      "abbr": "SEA",
+      "name": "Seahawks",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 100.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "NE",
+          "isHome": true,
+          "teamScore": 13,
+          "oppScore": 10,
+          "won": true,
+          "mlPick": "SEA",
+          "mlOutcome": "win",
+          "atsOutcome": "push",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "ARI",
+          "isHome": false,
+          "teamScore": 31,
+          "oppScore": 7,
+          "won": true,
+          "mlPick": "ARI",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "SF": {
+      "abbr": "SF",
+      "name": "49ers",
+      "record": {
+        "wins": 2,
+        "losses": 0
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 100.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "LA",
+          "isHome": false,
+          "teamScore": 27,
+          "oppScore": 7,
+          "won": true,
+          "mlPick": "LA",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "MIA",
+          "isHome": true,
+          "teamScore": 35,
+          "oppScore": 13,
+          "won": true,
+          "mlPick": "SF",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    },
+    "TB": {
+      "abbr": "TB",
+      "name": "Buccaneers",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 50.0,
+        "tot": 0.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "CIN",
+          "isHome": false,
+          "teamScore": 27,
+          "oppScore": 33,
+          "won": false,
+          "mlPick": "CIN",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "CLE",
+          "isHome": true,
+          "teamScore": 19,
+          "oppScore": 23,
+          "won": false,
+          "mlPick": "TB",
+          "mlOutcome": "loss",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "TEN": {
+      "abbr": "TEN",
+      "name": "Titans",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 50.0,
+        "ats": 0.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "NYJ",
+          "isHome": true,
+          "teamScore": 10,
+          "oppScore": 23,
+          "won": false,
+          "mlPick": "NYJ",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        },
+        {
+          "week": 2,
+          "opponent": "PHI",
+          "isHome": true,
+          "teamScore": 20,
+          "oppScore": 24,
+          "won": false,
+          "mlPick": "TEN",
+          "mlOutcome": "loss",
+          "atsOutcome": "loss",
+          "totOutcome": "loss"
+        }
+      ]
+    },
+    "WAS": {
+      "abbr": "WAS",
+      "name": "Commanders",
+      "record": {
+        "wins": 0,
+        "losses": 2
+      },
+      "modelAccuracy": {
+        "ml": 100.0,
+        "ats": 50.0,
+        "tot": 50.0
+      },
+      "games": [
+        {
+          "week": 1,
+          "opponent": "PHI",
+          "isHome": false,
+          "teamScore": 22,
+          "oppScore": 24,
+          "won": false,
+          "mlPick": "PHI",
+          "mlOutcome": "win",
+          "atsOutcome": "win",
+          "totOutcome": "loss"
+        },
+        {
+          "week": 2,
+          "opponent": "DAL",
+          "isHome": false,
+          "teamScore": 20,
+          "oppScore": 37,
+          "won": false,
+          "mlPick": "DAL",
+          "mlOutcome": "win",
+          "atsOutcome": "loss",
+          "totOutcome": "win"
+        }
+      ]
+    }
+  }
+}
