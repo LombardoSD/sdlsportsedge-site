@@ -1,0 +1,129 @@
+/* ============================================================
+   Shared design primitives across all sport sites in this portal.
+   Each sport overrides --accent / --accent-2 / --sport-name and
+   layers its own layout on top of these building blocks.
+   ============================================================ */
+
+:root {
+  --black: #030304;
+  --panel: #0b0c0f;
+  --panel-2: #121317;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-soft: rgba(255, 255, 255, 0.05);
+
+  --white: #ffffff;
+  --dim: #cdd2da;
+  --faint: #a9afb9;
+
+  --accent: #2f6fed;      /* overridden per sport */
+  --accent-2: #e0263f;    /* overridden per sport */
+
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; }
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ---------- ambient light field ----------
+   A fixed backdrop of soft colored glows, like distant floodlights
+   through haze. Sits behind everything, never scrolls. */
+
+.light-field {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background: var(--black);
+}
+
+.light-field .glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.35;
+}
+
+.light-field .glow.a {
+  width: 620px; height: 620px;
+  top: -220px; left: -120px;
+  background: radial-gradient(circle, var(--accent), transparent 70%);
+}
+
+.light-field .glow.b {
+  width: 560px; height: 560px;
+  top: 10%; right: -180px;
+  background: radial-gradient(circle, var(--accent-2), transparent 70%);
+  opacity: 0.22;
+}
+
+.light-field::after {
+  /* faint diagonal sheen, like light on brushed glass */
+  content: "";
+  position: absolute;
+  inset: -20% -20%;
+  background: linear-gradient(115deg, transparent 40%, rgba(255,255,255,0.035) 48%, transparent 56%);
+}
+
+/* ---------- glass panel ---------- */
+
+.glass {
+  position: relative;
+  background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015));
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.08),
+    0 20px 40px -20px rgba(0,0,0,0.6);
+}
+
+/* ---------- reflection ----------
+   Apply to a wrapper around an element; the ::after mirrors it,
+   fading out, to fake a glossy floor reflection. Requires the
+   caller to set --reflect-fade (px) if the default is wrong. */
+
+.reflect {
+  position: relative;
+}
+
+.reflect::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 100%;
+  height: 64px;
+  background: inherit;
+  transform: scaleY(-1);
+  transform-origin: top;
+  opacity: 0.12;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent 85%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent 85%);
+  pointer-events: none;
+}
+
+/* ---------- scrollbar (webkit) ---------- */
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--black); }
+::-webkit-scrollbar-thumb { background: var(--panel-2); border-radius: 6px; border: 2px solid var(--black); }
