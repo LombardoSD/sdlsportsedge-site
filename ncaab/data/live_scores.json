@@ -1,0 +1,281 @@
+{
+  "boardDate": "2026-11-13",
+  "updatedAt": "2026-11-14T01:00:35-05:00",
+  "games": {
+    "401902278": {
+      "homeScore": 64,
+      "awayScore": 76,
+      "final": true
+    },
+    "401906760": {
+      "homeScore": 82,
+      "awayScore": 76,
+      "final": true
+    },
+    "401906772": {
+      "homeScore": 83,
+      "awayScore": 54,
+      "final": true
+    },
+    "401906782": {
+      "homeScore": 70,
+      "awayScore": 78,
+      "final": true
+    },
+    "401906794": {
+      "homeScore": 63,
+      "awayScore": 81,
+      "final": true
+    },
+    "401906804": {
+      "homeScore": 74,
+      "awayScore": 58,
+      "final": true
+    },
+    "401906850": {
+      "homeScore": 83,
+      "awayScore": 78,
+      "final": true
+    },
+    "401909503": {
+      "homeScore": 47,
+      "awayScore": 67,
+      "final": true
+    },
+    "401909515": {
+      "homeScore": 78,
+      "awayScore": 85,
+      "final": true
+    },
+    "401909565": {
+      "homeScore": 90,
+      "awayScore": 47,
+      "final": true
+    },
+    "401909696": {
+      "homeScore": 84,
+      "awayScore": 60,
+      "final": true
+    },
+    "401909741": {
+      "homeScore": 69,
+      "awayScore": 80,
+      "final": true
+    },
+    "401911014": {
+      "homeScore": 90,
+      "awayScore": 65,
+      "final": true
+    },
+    "401911197": {
+      "homeScore": 80,
+      "awayScore": 58,
+      "final": true
+    },
+    "401911210": {
+      "homeScore": 85,
+      "awayScore": 57,
+      "final": true
+    },
+    "401913528": {
+      "homeScore": 108,
+      "awayScore": 86,
+      "final": true
+    },
+    "401916297": {
+      "homeScore": 83,
+      "awayScore": 87,
+      "final": true
+    },
+    "401916316": {
+      "homeScore": 84,
+      "awayScore": 68,
+      "final": true
+    },
+    "401917525": {
+      "homeScore": 84,
+      "awayScore": 61,
+      "final": true
+    },
+    "401917526": {
+      "homeScore": 87,
+      "awayScore": 67,
+      "final": true
+    },
+    "401917527": {
+      "homeScore": 88,
+      "awayScore": 94,
+      "final": true
+    },
+    "401917916": {
+      "homeScore": 79,
+      "awayScore": 66,
+      "final": true
+    },
+    "401917980": {
+      "homeScore": 92,
+      "awayScore": 62,
+      "final": true
+    },
+    "401918958": {
+      "homeScore": 81,
+      "awayScore": 62,
+      "final": true
+    },
+    "401919049": {
+      "homeScore": 76,
+      "awayScore": 64,
+      "final": true
+    },
+    "401920123": {
+      "homeScore": 74,
+      "awayScore": 83,
+      "final": true
+    },
+    "401920345": {
+      "homeScore": 74,
+      "awayScore": 60,
+      "final": true
+    },
+    "401920372": {
+      "homeScore": 120,
+      "awayScore": 82,
+      "final": true
+    },
+    "401920379": {
+      "homeScore": 82,
+      "awayScore": 62,
+      "final": true
+    },
+    "401920747": {
+      "homeScore": 84,
+      "awayScore": 73,
+      "final": true
+    },
+    "401920973": {
+      "homeScore": 70,
+      "awayScore": 77,
+      "final": true
+    },
+    "401921026": {
+      "homeScore": 84,
+      "awayScore": 70,
+      "final": true
+    },
+    "401921167": {
+      "homeScore": 69,
+      "awayScore": 67,
+      "final": true
+    },
+    "401921191": {
+      "homeScore": 62,
+      "awayScore": 59,
+      "final": true
+    },
+    "401921721": {
+      "homeScore": 94,
+      "awayScore": 52,
+      "final": true
+    },
+    "401921728": {
+      "homeScore": 76,
+      "awayScore": 68,
+      "final": true
+    },
+    "401921803": {
+      "homeScore": 78,
+      "awayScore": 77,
+      "final": true
+    },
+    "401921825": {
+      "homeScore": 89,
+      "awayScore": 62,
+      "final": true
+    },
+    "401922211": {
+      "homeScore": 80,
+      "awayScore": 89,
+      "final": true
+    },
+    "401923270": {
+      "homeScore": 72,
+      "awayScore": 51,
+      "final": true
+    },
+    "401924704": {
+      "homeScore": 59,
+      "awayScore": 77,
+      "final": true
+    },
+    "401924796": {
+      "homeScore": 65,
+      "awayScore": 60,
+      "final": true
+    },
+    "401925686": {
+      "homeScore": 73,
+      "awayScore": 69,
+      "final": true
+    },
+    "401925739": {
+      "homeScore": 81,
+      "awayScore": 65,
+      "final": true
+    },
+    "401925755": {
+      "homeScore": 106,
+      "awayScore": 72,
+      "final": true
+    },
+    "401925820": {
+      "homeScore": 60,
+      "awayScore": 66,
+      "final": true
+    },
+    "401926117": {
+      "homeScore": 66,
+      "awayScore": 90,
+      "final": true
+    },
+    "401926133": {
+      "homeScore": 80,
+      "awayScore": 62,
+      "final": true
+    },
+    "401926152": {
+      "homeScore": 88,
+      "awayScore": 75,
+      "final": true
+    },
+    "401926794": {
+      "homeScore": 74,
+      "awayScore": 66,
+      "final": true
+    },
+    "401927363": {
+      "homeScore": 81,
+      "awayScore": 72,
+      "final": true
+    },
+    "401927374": {
+      "homeScore": 82,
+      "awayScore": 81,
+      "final": true
+    },
+    "401927380": {
+      "homeScore": 99,
+      "awayScore": 78,
+      "final": true
+    },
+    "401929040": {
+      "homeScore": 67,
+      "awayScore": 56,
+      "final": true
+    },
+    "401929199": {
+      "homeScore": 85,
+      "awayScore": 65,
+      "final": true
+    }
+  }
+}
