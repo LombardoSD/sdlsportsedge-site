@@ -1,0 +1,36 @@
+{
+  "week": 12,
+  "updatedAt": "2026-11-21T01:20:17-05:00",
+  "games": {
+    "401856869": {
+      "homeScore": 48,
+      "awayScore": 17,
+      "final": true
+    },
+    "401858303": {
+      "homeScore": 10,
+      "awayScore": 20,
+      "final": true
+    },
+    "401858529": {
+      "homeScore": 7,
+      "awayScore": 45,
+      "final": true
+    },
+    "401864542": {
+      "homeScore": 17,
+      "awayScore": 24,
+      "final": true
+    },
+    "401864545": {
+      "homeScore": 52,
+      "awayScore": 3,
+      "final": true
+    },
+    "401866468": {
+      "homeScore": 19,
+      "awayScore": 0,
+      "final": true
+    }
+  }
+}
