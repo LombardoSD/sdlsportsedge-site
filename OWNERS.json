@@ -1,0 +1,43 @@
+{
+  "owners": {
+    "hub": {
+      "paths": [
+        "index.html",
+        "hub/",
+        "CNAME",
+        "404.html",
+        "OWNERS.json"
+      ]
+    },
+    "ncaab": {
+      "paths": [
+        "ncaab/"
+      ]
+    },
+    "ncaaw": {
+      "paths": [
+        "ncaaw/"
+      ]
+    },
+    "ncaaf": {
+      "paths": [
+        "ncaaf/"
+      ]
+    },
+    "nfl": {
+      "paths": [
+        "nfl/",
+        "board.html",
+        "parlays.html",
+        "teams.html",
+        "team.html",
+        "training.html",
+        "metrics.html",
+        "data/",
+        "robots.txt",
+        "sitemap.xml"
+      ]
+    }
+  },
+  "phase": "multisport"
+}

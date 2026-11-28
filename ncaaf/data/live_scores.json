@@ -1,0 +1,71 @@
+{
+  "week": 13,
+  "updatedAt": "2026-11-28T01:20:17-05:00",
+  "games": {
+    "401856756": {
+      "homeScore": 6,
+      "awayScore": 16,
+      "final": true
+    },
+    "401856759": {
+      "homeScore": 10,
+      "awayScore": 26,
+      "final": true
+    },
+    "401856762": {
+      "homeScore": 41,
+      "awayScore": 17,
+      "final": true
+    },
+    "401856880": {
+      "homeScore": 52,
+      "awayScore": 28,
+      "final": true
+    },
+    "401858536": {
+      "homeScore": 31,
+      "awayScore": 7,
+      "final": true
+    },
+    "401858544": {
+      "homeScore": 28,
+      "awayScore": 5,
+      "final": true
+    },
+    "401862838": {
+      "homeScore": 31,
+      "awayScore": 35,
+      "final": true
+    },
+    "401862840": {
+      "homeScore": 28,
+      "awayScore": 22,
+      "final": true
+    },
+    "401864546": {
+      "homeScore": 42,
+      "awayScore": 19,
+      "final": true
+    },
+    "401864549": {
+      "homeScore": 31,
+      "awayScore": 38,
+      "final": true
+    },
+    "401866472": {
+      "homeScore": 9,
+      "awayScore": 17,
+      "final": true
+    },
+    "401866473": {
+      "homeScore": 31,
+      "awayScore": 34,
+      "final": true
+    },
+    "401869930": {
+      "homeScore": 20,
+      "awayScore": 13,
+      "final": true
+    }
+  }
+}
